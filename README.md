@@ -18,3 +18,12 @@ todo tasks;
 * Handlebars and CSS
 * MongoDB
 * Insomnia
+
+## Installation 
+* Clone the project locally
+* cd into the project folder
+* npm init -y
+* npm i express express-handlebars node-fetch dotenv mongoose --save
+* Create a .env file in the project folder and add your MongoDB connection details as such: 
+databaseURL=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority
+* Run the app using one of the following commands: nodemon / node index.js
